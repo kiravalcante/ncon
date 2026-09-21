@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NCON_VERSION "1.0"
-
 bool to_int(const char *s, int *result) {
     if (s == NULL || result == NULL || *s == '\0') {
         return false;
@@ -58,7 +56,6 @@ int main(int argc, char *argv[]) {
 
         printf("|\n");
 
-        // This can be removed to provide a cleaner output
         printf("+-----------+-----------+-----------+--------------------+\n");
     }
 
